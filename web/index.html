@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="screen" class="hidden">
+        <div class="vignette"></div>
+        <div class="panel">
+            <div class="icon"><i id="icon" class="fa-solid fa-heart-crack"></i></div>
+            <small id="eyebrow">YOU ARE</small>
+            <h1 id="title">DOWN</h1>
+            <p id="cause"></p>
+
+            <div class="timer">
+                <div class="timer-head"><span id="timer-label">Bleeding out in</span><b id="time">3:00</b></div>
+                <div class="bar"><div id="fill"></div></div>
+            </div>
+
+            <div class="keys">
+                <div class="key" id="key-ems"><kbd>G</kbd><span>Call EMS</span></div>
+                <div class="key hidden" id="key-respawn"><kbd>E</kbd><span>Hold to respawn</span><div class="hold"><div id="hold"></div></div></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
